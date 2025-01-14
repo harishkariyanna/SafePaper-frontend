@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fbfbfe;
+  color: #050315;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+}
+
+.MuiPaper-root {
+  border-radius: 12px !important;
+}
+
+.MuiTextField-root {
+  border-radius: 8px !important;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(to right, #2f27ce, #433bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card hover effect */
+.hover-card {
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Default font for body */
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif; /* Font for headings */
+}
+/* src/index.scss or src/App.scss */
+.font-space-grotesk {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.border-red{
+  border: 2px solid red;
+}
